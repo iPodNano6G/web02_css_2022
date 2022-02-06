@@ -12,6 +12,15 @@ ex ) `a { color : red; }`
 
 protery 참고 사이트
 
+자주 사용하는 속성
 https://velog.io/@bungouk6829/CSS-%EC%9E%90%EC%A3%BC-%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94-%EC%86%8D%EC%84%B1
 
+폰트 사이즈
 https://careerkarma.com/blog/css-font-size/
+
+## 2. 선택자
+`a { }`인 경우에는 태그가 a인 경우에 적용된다.   
+`.class`인 경우에는 태그의 속성에서 class가 `class="class"`인 경우에 적용된다. 하나의 태그가 여러개의 class를 가질 수 있고, 두 개의 구문이 다른 지시를 하고 있을 경우 아래에 있는것이 적용된다.  
+`#id`인 경우에는 태그의 속성에서 id가 `id="id"`인 경우에 적용된다. 같은 id는 하나만 사용해야한다.  
+우선 순위는 기본 < 클래스 < id 순서이다.  
+https://www.w3schools.com/cssref/css_selectors.asp  
