@@ -13,6 +13,7 @@ h1 {
     border-width: 0px;
     margin: 0px;
     border-bottom: 1px black solid;
+    font-size: 50vw;
 }
 
 #grid {
